@@ -1,0 +1,73 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+
+global
+{
+	fontFamily: OpenSans, Arial;
+}
+
+
+@font-face
+{
+	fontFamily: OpenSans;
+	src: url("fonts\opensans\OpenSans-Regular.ttf");
+	embedAsCFF: true;
+}
+
+@font-face
+{
+	fontFamily: OpenSans;
+	src: url("fonts\opensans\OpenSans-Semibold.ttf");
+	fontWeight: bold;
+	embedAsCFF: true;
+}
+
+@font-face
+{
+	fontFamily: OpenSans;
+	src: url("fonts\opensans\OpenSans-BoldItalic.ttf");
+	fontWeight: bold;
+	fontStyle: italic;
+	embedAsCFF: true;
+}
+
+@font-face
+{
+	fontFamily: OpenSans;
+	src: url("fonts\opensans\OpenSans-Italic.ttf");
+	fontStyle: italic;
+	embedAsCFF: true;
+}
+
+
+/*Semi Bold*/
+
+@font-face
+{
+	fontFamily: OpenSans-Light;
+	src: url("fonts\opensans\OpenSans-Light.ttf");	
+	embedAsCFF: true;
+}
+
+
+
+@font-face
+{
+	fontFamily: OpenSans-SemiBold;
+	src: url("fonts\opensans\OpenSans-Semibold.ttf");	
+	embedAsCFF: true;
+}
+
+.header1 {
+	fontFamily: OpenSans-Light;
+	fontSize: 24;
+	color: #03a9f4;
+}
+
+.header2 {
+	fontFamily: OpenSans-SemiBold;
+	fontSize: 24;
+}
+
